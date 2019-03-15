@@ -1,0 +1,17 @@
+@startuml
+
+:Вывалить мысли
+в текст;
+if (Бред?) then (Возможно)
+    :Дать посмотреть коллеге;
+    if (Сойдет?) then (Да)
+    else (Нет)
+        :Помедитировать над текстом;
+    endif
+    :Разместить на //Хабре//;
+else (Точно)
+    stop
+
+@enduml
+
+// https://javarush.ru/groups/posts/1972-uml-ot-teorii-k-praktike
